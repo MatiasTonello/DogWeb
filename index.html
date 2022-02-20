@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DogWEB</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="navegacion">
+            <h2 class="title-web">DogWeb</h2>
+            <ul>
+                <li><a href="#somos">¿Quienes somos?</a></li>
+                <li><a href="#carrito">Carrito</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+
+        <div class="contenedor-info">
+            <div class="contenedor-texto">
+                <h1>Bienvenido a la página de DogWEB</h1>
+                <p>En nuestra página web encontraras toda la información que necesites acerca de nosotros. A su ves, contamos con un carrito de compras para que elijas lo que desees y te lo enviemos a tu casa.</p>
+                <button class="btn-carrito"><a href="#carrito">ir al Carrito</a></button>
+            </div>
+           
+
+        </div>
+    </header>
+
+    <main>
+        
+        <div class="contenedor-nosotros">
+            <div class="contenedor-sobrenosotros" id="somos">
+                <div class="separadores">
+                    <i class="fa-solid fa-dog"></i>
+                    <p>Somos una empresa familiar fundada en 2015. El equipo esta formado por profesionales que amamos a los animales y dariamos todo por ellos</p>
+                </div>
+                <div class="separadores">
+                    <i class="fa-solid fa-cat"></i>
+                    <p>Hace tu compra a tráves de nuestro carrito, elegí el medio de envio que mas comodo te quede y recibi nuestros productos de excelente calidad
+                    </p>
+                </div>
+                <div class="separadores">
+                    <i class="fa-solid fa-fish"></i>
+                    <p>Contactate con nosotros a tráves de nuestro formulario por cualquier duda sobre tus productos, envios o sugerencias. Tu opinión nos importa mucho!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="contenedor-carrito">
+        <h2 class="title" id="carrito"> Selecciona los productos, pagá, y recibi!</h2>
+        <div class="contenedor-productos">
+            <div class="productos" >
+                <img src="./img/c1.jpg" alt="">
+                <p>DogChow para adultos, el más rico y saludable</p>
+                <button class="btn-agregar">Agregar al carrito</button>
+            </div>
+            <div class="productos">
+                <img src="./img/c2.jpg" alt="">
+                <p>DogChow para adultos, el más rico y saludable</p>
+                <button class="btn-agregar">Agregar al carrito</button>
+            </div>
+            <div class="productos">
+                <img src="./img/c3.jpg" alt="">
+                <p>DogChow para adultos, el más rico y saludable</p>
+                <button class="btn-agregar">Agregar al carrito</button>
+            </div>
+            <div class="productos">
+                <img src="./img/c5.png" alt="">
+                <p>DogChow para adultos, el más rico y saludable</p>
+                <button class="btn-agregar">Agregar al carrito</button>
+            </div>
+            <div class="productos">
+                <img src="./img/c6.jpg" alt="">
+                <p>DogChow para adultos, el más rico y saludable</p>
+                <button class="btn-agregar">Agregar al carrito</button>
+            </div>
+            <div class="productos">
+                <img src="./img/c8.jpg" alt="">
+                <p>DogChow para adultos, el más rico y saludable</p>
+                <button class="btn-agregar">Agregar al carrito</button>
+            </div>
+        
+        </div>
+    </section>
+
+    <section class="contenedor-contacto">
+
+        <div class="contenedor-form">
+            <h2 class="title" id="contacto"> Dejanos tu mensaje y nos pondremos en contacto </h2>
+
+            <form action="" class="formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="consulta">Ingrese su comentario</label>
+                <textarea name="consulta" id="" cols="30" rows="10"></textarea>
+                <button class="btn-enviar" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

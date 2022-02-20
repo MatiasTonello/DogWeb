@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,300&family=Quicksand:wght@300&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;422;600;900&family=Poppins:ital,wght@0,500;0,600;1,300&family=Quicksand:wght@300&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/fondo04.png);
+    width: 100%;
+    height: 100vh;
+}
+
+
+.contenedor{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-login{
+    width: 50%;
+    height: 60%;
+    background-color: #FF0054;
+    border-radius: 20px;
+    display:flex;
+
+    box-shadow: 10px 10px 20px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 20px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 20px -2px rgba(0,0,0,0.75);
+}
+
+.contenedor-texto1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.contenedor-texto1 label, input{
+    margin-bottom: 0.5em;
+    font-family: 'Poppins';
+    font-weight: 900;
+
+}
+
+
+.btn-ingresar {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+.btn-ingresar {
+   margin: 1em;
+   padding: 0.5em;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: block;
+   font-family: 'Poppins';
+ }
+
+ .btn-ingresar:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.contenedor-img1{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-img1 img{
+    height: 100%;
+    
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.back{
+    display: flex;
+    margin: 0.3em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.back span{
+    font-size: 1.1em;
+}
