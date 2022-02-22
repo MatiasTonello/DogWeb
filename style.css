@@ -29,6 +29,10 @@ li{
 
 .title-web{
     font-family: 'Orbitron', sans-serif;
+    animation-name: titulo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .encabezado{
@@ -92,6 +96,14 @@ a{
 
 .contenedor-texto p{
     font-family: 'Roboto Mono', monospace;
+}
+
+.li-nav{
+    transition: all 2s;
+}
+
+.li-nav:hover{
+   transform: scale(1,1.5);
 }
 
 .btn-carrito{
@@ -270,4 +282,16 @@ background: -moz-linear-gradient(180deg, rgba(10,13,3,0.6054796918767507) 0%, rg
 background: -webkit-linear-gradient(180deg, rgba(10,13,3,0.6054796918767507) 0%, rgba(12,38,26,0.5242471988795518) 100%);
 background: linear-gradient(180deg, rgba(10,13,3,0.6054796918767507) 0%, rgba(12,38,26,0.5242471988795518) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a0d03",endColorstr="#0c261a",GradientType=1);
+}
+
+@keyframes titulo{
+    from{
+        font-size: 1.5em;
+        color: white;
+    }
+
+    to{
+        font-size: 2.2em;
+        color: red;
+    }
 }
