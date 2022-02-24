@@ -368,6 +368,7 @@ footer a{
 }
 
 @media (max-width: 858px){
+   
     .title-web{
         animation: none;
     }
@@ -398,5 +399,13 @@ footer a{
     }
     #check:checked ~ ul{
         left:0;
+    }
+    #check:checked ~ .checkbtn{
+        position: fixed;
+        left: 0.3em;
+        align-items: flex-start;
+    }
+    #check:checked ~ .title-web{
+        display: none;
     }
 }
