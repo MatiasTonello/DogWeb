@@ -118,6 +118,8 @@ input:focus{
     background-color: beige;
 }
 
+
+
 @media (max-width: 952px){
   .contenedor-login{
       width: auto;

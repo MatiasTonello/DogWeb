@@ -195,8 +195,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a0d03",endCo
     flex-direction: column;
     width: 28%;
     align-items: center;
-
-    margin-bottom: 3em;
     
     background-color: white;
     border-radius: 2%;
@@ -218,12 +216,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a0d03",endCo
     text-transform: uppercase;
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
-    margin-bottom: 1em;
 }
 
 .contenedor-contacto{
     width: 100%;
-    height: 100vh;
     background-image: url(./img/fondo.jpg);   
     background-size: cover; 
     background-attachment: fixed;
@@ -290,6 +286,23 @@ background: linear-gradient(180deg, rgba(10,13,3,0.6054796918767507) 0%, rgba(12
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a0d03",endColorstr="#0c261a",GradientType=1);
 }
 
+footer{
+    padding: 1em;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    font-size: 2em;
+}
+
 @keyframes titulo{
     from{
         font-size: 1.5em;
@@ -324,6 +337,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a0d03",endCo
     .btn-carrito{
         width: 80%;
     }
+
+    .contenedor-form{
+        margin-bottom: 1em;
+    }
+    
+    .title h2{
+        display:none;
+    }
+
     .contenedor-sobrenosotros{
         flex-direction: column;
         flex-wrap: wrap;
@@ -340,6 +362,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a0d03",endCo
     .productos{
         width: 50%;
     }
+
+
     
 }
 
