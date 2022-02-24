@@ -49,6 +49,13 @@ a{
    text-decoration: none;
 }
 
+.checkbtn{
+    display: none;
+}
+
+#check{
+    display: none;
+}
 
 .navegacion{
     display: flex;
@@ -123,7 +130,6 @@ a{
 
 .contenedor-nosotros{
     width: 100%;
-    height: 100vh;
     background-image: url(./img/fondo04.png);   
     
 }
@@ -293,5 +299,80 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a0d03",endCo
     to{
         font-size: 2.2em;
         color: red;
+    }
+}
+
+
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .title-web{
+        animation: none;
+    }
+
+    .contenedor-info{
+        width: 100%;
+    }
+    .contenedor-texto{
+        width: 80%;
+    }
+    .btn-carrito{
+        width: 80%;
+    }
+    .contenedor-sobrenosotros{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .separadores{
+        width: 70%;
+        margin-bottom: 1em;
+        overflow: hidden;
+        height: max-content;
+    }
+
+   
+
+    .productos{
+        width: 50%;
+    }
+    
+}
+
+@media (max-width: 858px){
+    .title-web{
+        animation: none;
+    }
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
     }
 }
