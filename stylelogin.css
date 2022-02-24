@@ -117,3 +117,24 @@ a{
 input:focus{
     background-color: beige;
 }
+
+@media (max-width: 952px){
+  .contenedor-login{
+      width: auto;
+      justify-content: start;
+      flex-direction: column;
+  }
+
+ .back{
+     display: inline-block;
+ }
+
+  .contenedor-texto1{
+      width: 80%;
+      align-items: flex-start;
+  }
+
+  .contenedor-img1{
+      display: none;
+  }
+}
